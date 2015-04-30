@@ -1,0 +1,85 @@
+*, *:before, *:after {
+     box-sizing: border-box;
+}
+
+body {
+  background: rgba(73, 186, 126, 1);
+}
+
+form {
+  width: 90%;
+  margin: 35px auto;
+  
+}
+
+.name, .email {
+   height: 85px;
+   width: 45%;
+   border: 2px solid rgba(225, 225, 225, 0.7);
+   border-radius: 8px;
+   background: transparent;
+   padding: 10px;
+   color: red; /* color doesn't work */
+   /* color: rgba(144, 211, 176, 1); */
+   margin-bottom: 55px;
+   /* font-family: ; */
+  font-size: 20pt;
+  text-indent: 15px;
+ }
+
+ .email {
+   float: right;
+ }
+
+ .name {
+   float: left;
+ }
+
+.message {
+   display: block;
+   height: 360px;
+   width: 100%;
+   margin: 50px auto;
+   background: rgba(73, 186, 126, 1);
+   border: 2px solid rgba(225, 225, 225, 0.7);
+   border-radius: 8px;
+   padding-top: 30px;
+   padding-left: 10px;
+   font-size: 20pt;
+  text-indent: 15px;
+ }
+
+.submit {
+	height: 80px;
+   width: 40%;
+   background: #FFF;
+  border: none;
+  font-size: 20pt;
+  font-weight: bold;
+  color: rgba(73, 186, 126, 1);
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 10px auto 0 auto;
+  display: block;
+}
+
+.submit:hover {
+  cursor:pointer;
+}
+
+::-webkit-input-placeholder {
+   color: rgba(144, 211, 176, 1);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(225, 225, 225, 0.7);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(225, 225, 225, 0.7);
+}
+
+:-ms-input-placeholder {
+   color: rgba(225, 225, 225, 0.7);
+}
